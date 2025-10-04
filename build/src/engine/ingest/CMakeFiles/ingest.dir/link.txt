@@ -1,0 +1,2 @@
+/usr/bin/ar qc libingest.a CMakeFiles/ingest.dir/ingest_autogen/mocs_compilation.cpp.o CMakeFiles/ingest.dir/tick_file_reader.cpp.o CMakeFiles/ingest.dir/alpha_vantage_client.cpp.o
+/usr/bin/ranlib libingest.a

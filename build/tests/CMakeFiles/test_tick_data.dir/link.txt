@@ -1,0 +1,1 @@
+/usr/bin/clang++ -O3 -DNDEBUG -march=native -mtune=native -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/test_tick_data.dir/test_tick_data.cpp.o -o test_tick_data  /Users/ishaanrathod/Code/Demo/tests/../src/engine/ingest/tick_data.cpp

@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/ishaanrathod/Code/Demo/build/cmake_install.cmake",
+		"/Users/ishaanrathod/Code/Demo/build/src/engine/ingest/cmake_install.cmake",
+		"/Users/ishaanrathod/Code/Demo/build/src/engine/ilp_writer/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

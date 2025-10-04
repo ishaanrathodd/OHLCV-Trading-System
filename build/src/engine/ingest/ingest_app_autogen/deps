@@ -1,0 +1,4 @@
+ingest_app_autogen/timestamp: \
+	/Users/ishaanrathod/Code/Demo/src/engine/ingest/CMakeLists.txt \
+	/Users/ishaanrathod/Code/Demo/src/engine/ingest/main.cpp \
+	/opt/homebrew/bin/cmake

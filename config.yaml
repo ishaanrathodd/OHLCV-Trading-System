@@ -1,0 +1,37 @@
+# BSE Trading System Configuration
+# Replaces all hardcoded values from bash scripts and C++ code
+
+# QuestDB Configuration
+questdb:
+  host: localhost
+  port: 9009           # ILP port for data ingestion
+  http_port: 9000      # HTTP port for queries
+  postgres_port: 8812  # PostgreSQL port for GUI
+  batch_size: 10
+
+# Alpha Vantage API Configuration  
+alpha_vantage:
+  api_key: O5OHFLSF4NLRGMHW
+  symbols:
+    - RELIANCE.BSE
+    - TCS.BSE
+  polling_interval_seconds: 120
+
+# Application Paths
+app:
+  build_dir: build
+  pipeline_executable: alpha_vantage_pipeline
+  gui_executable: bse_trading_gui
+  log_file: pipeline.log
+
+# Build Configuration
+build:
+  type: Release
+  use_clang: true
+  parallel_jobs: 4
+
+# Monitoring
+monitoring:
+  health_check_interval: 5
+  stats_display_interval: 30
+  max_startup_wait: 10

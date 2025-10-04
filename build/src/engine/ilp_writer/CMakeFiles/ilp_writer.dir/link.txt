@@ -1,0 +1,2 @@
+/usr/bin/ar qc libilp_writer.a CMakeFiles/ilp_writer.dir/ilp_writer_autogen/mocs_compilation.cpp.o CMakeFiles/ilp_writer.dir/ilp_writer.cpp.o
+/usr/bin/ranlib libilp_writer.a

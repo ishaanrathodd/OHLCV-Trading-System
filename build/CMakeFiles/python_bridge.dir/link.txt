@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpython_bridge.a CMakeFiles/python_bridge.dir/python_bridge_autogen/mocs_compilation.cpp.o CMakeFiles/python_bridge.dir/src/engine/bridge/python_bridge.cpp.o
+/usr/bin/ranlib libpython_bridge.a

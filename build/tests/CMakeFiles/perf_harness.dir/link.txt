@@ -1,0 +1,1 @@
+/usr/bin/clang++ -O3 -DNDEBUG -march=native -mtune=native -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/perf_harness.dir/perf_harness.cpp.o -o perf_harness  ../src/engine/ingest/libingest.a ../src/engine/ilp_writer/libilp_writer.a

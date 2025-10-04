@@ -1,0 +1,28 @@
+{
+  "timestamp": "2025-09-02T06:24:27Z",
+  "phase": "1",
+  "scenario": "normal_trading",
+  "duration_seconds": 300,
+  "metrics": {
+    "ingest": {
+      "total_ticks": 3612,
+      "p50_latency_us": 70,
+      "p95_latency_us": 268,
+      "p99_latency_us": 268,
+      "max_latency_us": 268
+    },
+    "ilp_writer": {
+      "total_lines": 3612,
+      "total_batches": 5,
+      "total_errors": 0,
+      "p50_write_latency_us": 70,
+      "p95_write_latency_us": 268,
+      "p99_write_latency_us": 268,
+      "max_write_latency_us": 268
+    }
+  },
+  "slo_compliance": {
+    "ingest_p99_under_60ms": true,
+    "ilp_p99_under_60ms": true
+  }
+}

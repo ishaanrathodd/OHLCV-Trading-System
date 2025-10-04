@@ -1,0 +1,1 @@
+/usr/bin/clang++ -O3 -DNDEBUG -march=native -mtune=native -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/ilp_writer_app.dir/ilp_writer_app_autogen/mocs_compilation.cpp.o CMakeFiles/ilp_writer_app.dir/main.cpp.o -o ilp_writer_app  libilp_writer.a ../ingest/libingest.a
