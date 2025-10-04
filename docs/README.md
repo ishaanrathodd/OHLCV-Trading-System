@@ -4,7 +4,7 @@
 - **Exchange website data retrieval** (Alpha Vantage BSE API)
 - **QuestDB time-series storage** (ILP protocol)  
 - **Interactive Qt UI**
-- 
+
 ## Implementation
 
 ### Alpha Vantage BSE Integration
